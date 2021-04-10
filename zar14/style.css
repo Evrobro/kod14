@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.poloska{
+    height: 50px;
+    width: 100%;
+    background-color: #fbbb43;
+    display: flex;
+justify-content: space-between;
+}
+.logo{
+    margin-left: 10px;
+}
+.texthead{
+    display: flex;
+    margin: 10px;
+font-size: 25px;
+}
+.texthead p{
+    padding-left: 20px;
+}
+.texthead a{
+    color: black;
+}
+.span{
+    font-size: 50px;
+    text-align: center;
+    color: #fbbb43;
+}
+
+
+
+a.rollover {
+    background: url(image/voda.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 100%; /* Ширина рисунка */
+    height: 200px; /*  Высота рисунка */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+a.rollover:hover {
+    background: url(image/chistai.jpg); /* Путь к файлу с заменяемым рисунком  */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+a.rollover1 {
+    background: url(image/detskai.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 100%; /* Ширина рисунка */
+    height: 200px; /*  Высота рисунка */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+a.rollover1:hover {
+    background: url(image/novaidetskai.jpg); /* Путь к файлу с заменяемым рисунком  */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+a.rollover2 {
+    background: url(image/hous.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 100%; /* Ширина рисунка */
+    height: 200px; /*  Высота рисунка */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+a.rollover2:hover {
+    background: url(image/houscj.jpg); /* Путь к файлу с заменяемым рисунком  */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+a.rollover3 {
+    background: url(image/scale_1200.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 100%; /* Ширина рисунка */
+    height: 200px; /*  Высота рисунка */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+a.rollover3:hover {
+    background: url(image/doroganews.jpg); /* Путь к файлу с заменяемым рисунком  */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+a.rollover4 {
+    background: url(image/maddog.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 100%; /* Ширина рисунка */
+    height: 200px; /*  Высота рисунка */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+a.rollover4:hover {
+    background: url(image/dog.jpg); /* Путь к файлу с заменяемым рисунком  */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.productsis{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.products {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-wrap {
+    font-size: 14px;
+    border: silver solid 1px;
+    width: 300px;
+    background: #141111;
+    padding: 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2vh;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.product-wrap img {
+    display: block;
+    width: 100%;
+}
+
+.product-wrap:hover {
+    border: solid 1px #fbbb43;
+}
+
+.product-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-buttons {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+.button:hover {
+    background: black;
+}
+
+.product-title {
+    color: #5e5e5e;
+}
+
+.product-title a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+.product-title a:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: #2e2e2e;
+    left: 50%;
+    margin-left: -20px;
+    bottom: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.product-title a:hover {
+    color: #fbbb43;
+}
+
+.product-title:hover a:after {
+    background: #fbbb43;
+}
+
+.product-price {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+
